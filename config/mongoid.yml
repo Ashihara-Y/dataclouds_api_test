@@ -11,7 +11,7 @@ development:
       hosts:
         - ds055489-a0.mongolab.com:55489
       username: owilde
-      password: 1854owwb
+      password: 
       #
       options:
         # Change the default write concern. (default = { w: 1 })
