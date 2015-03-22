@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Wdi Facts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Country code</th>
+      <th>Country name</th>
+      <th>Series code</th>
+      <th>Series name</th>
+      <th>Content</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @wdi_facts.each do |wdi_fact| %>
+      <tr>
+        <td><%= wdi_fact.country_code %></td>
+        <td><%= wdi_fact.country_name %></td>
+        <td><%= wdi_fact.series_code %></td>
+        <td><%= wdi_fact.series_name %></td>
+        <td><%= wdi_fact.content %></td>
+        <td><%= link_to 'Show', wdi_fact %></td>
+        <td><%= link_to 'Edit', edit_wdi_fact_path(wdi_fact) %></td>
+        <td><%= link_to 'Destroy', wdi_fact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Wdi fact', new_wdi_fact_path %>

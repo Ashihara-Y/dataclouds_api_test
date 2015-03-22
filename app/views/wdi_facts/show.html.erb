@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Country code:</strong>
+  <%= @wdi_fact.country_code %>
+</p>
+
+<p>
+  <strong>Country name:</strong>
+  <%= @wdi_fact.country_name %>
+</p>
+
+<p>
+  <strong>Series code:</strong>
+  <%= @wdi_fact.series_code %>
+</p>
+
+<p>
+  <strong>Series name:</strong>
+  <%= @wdi_fact.series_name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @wdi_fact.content %>
+</p>
+
+<%= link_to 'Edit', edit_wdi_fact_path(@wdi_fact) %> |
+<%= link_to 'Back', wdi_facts_path %>

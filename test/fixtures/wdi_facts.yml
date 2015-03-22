@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country_code: MyString
+  country_name: MyString
+  series_code: MyString
+  series_name: MyString
+  content: 
+
+two:
+  country_code: MyString
+  country_name: MyString
+  series_code: MyString
+  series_name: MyString
+  content: 
