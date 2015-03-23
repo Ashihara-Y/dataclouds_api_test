@@ -44,6 +44,7 @@ group :development, :test do
 gem 'grape'
 gem 'grape-jbuilder'
 gem 'json_expressions'
+gem 'grape-entity'
 #gem 'mongo'
 gem 'mongoid', "~> 4.0.0"
 gem 'activejob_backport'
